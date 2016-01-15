@@ -1,5 +1,4 @@
 test:
   override:
-    - ls ~/.heroku
-    - ~/.heroku/heroku-cli version
-    - heroku create --org foo
+    - rm -rf ~/.heroku
+    - heroku help create
