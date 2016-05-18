@@ -1,4 +1,4 @@
 test:
   override:
     - rm -rf ~/.heroku
-    - heroku help create
+    - heroku help info
